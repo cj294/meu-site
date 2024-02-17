@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        article {
+            width: 60%;
+            text-align: left;
+            border: 2px green double;
+            padding: 2px;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h3>favorite sites</h3>
+    <article>
+        <a href="../index.html">jeanine meyer's academic activities</a>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis minus sunt fuga cupiditate neque ex voluptates illum saepe, cum fugiat?
+    </article>
+
+    <article>the <a href="http://stolechair.org">stolen chair theatre company</a> is the web site of the theatre company</article>
+
+    <canvas id="canvas" width="300" height="300" style="border: 2px solid;">
+        Se seu navegador não suportar HTML5 você verá esta mensagem.
+    </canvas>
+
+    <script>
+        var ctx = document.getElementById('canvas').getContext('2d');
+        ctx.lineWidth = 5;
+        ctx.strokeRect(50, 50, 200, 200); // Desenha um retângulo de 200x200 começando em (50, 50)
+        ctx.strokeStyle = "rgb(0,0,255)";
+    </script>
+</body>
+</html>

@@ -1,0 +1,315 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+header {
+    background-color: rgb(43, 31, 167);
+    margin-left: 0px;
+    position: relative;
+    height: 70px;
+    display: flex;
+    align-items: center; /* Centraliza itens verticalmente */
+    padding-left: 20px; /* Adiciona espaço à esquerda para o ícone */
+    color: white; /* Define a cor do texto */
+    font-size: larger;
+
+}
+strong{
+    display:flex;
+flex-direction: column;
+text-align: left;
+
+}
+
+
+form {
+    text-align: center;
+    display: block;
+    border: 5px black solid;
+    padding: 20px;
+    margin-left: 35%;
+    margin-right: 35%;
+    height: 500px;
+    margin-top: 50px;
+    background-color: #140330;
+    color: aliceblue;
+    position: relative;
+    background-image: url('image1.jpg'); 
+    background-size: cover;
+}
+
+form > *:not(section) {
+    filter: blur(1px); /* Aplica o desfoque a todos os elementos dentro do formulário, exceto a seção */
+}
+
+section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+.yio{
+    padding: 5px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    background-color: transparent;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    color: aliceblue;
+    font-size: medium;
+
+}
+.yia{
+    padding: 5px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    background-color: transparent;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    color: aliceblue;
+    font-size: medium;
+
+    margin-top: 30px;
+
+}
+
+
+
+.man{
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+    width: 80px;
+    color: aliceblue;
+
+}
+
+.fora{
+    font-size: larger;
+}
+
+strong{
+    font-size: 40px;
+}
+.lista{
+    margin-left: 100px;
+    list-style-type: none;
+    
+}
+li{
+    font-size: 20px;
+    display: inline;
+    margin: 20px;
+    margin-right: 20px;
+}
+
+
+.left-icon {
+    float: left; /* Alinha à esquerda */
+    height: 40px;
+    width: 40px;
+    padding: 1px;
+    margin-right: 20px;
+}
+
+.right-icon {
+    float: right; /* Alinha à direita */
+    height: 50px;
+    width: 50px;
+    padding: 1px; display: flex;
+    text-align: right;
+    margin-left: auto;
+    margin-right: 20px;
+}
+.right-icon2 {
+    float: right; /* Alinha à direita */
+    height: 50px;
+    width: 50px;
+    padding: 1px; display: flex;
+    text-align: right;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.right-icon3{
+    float: right; /* Alinha à direita */
+    height: 70px;
+    width: 70px;
+    padding: 1px; display: flex;
+    text-align: right;
+    margin-left: auto;
+    margin-right:20;
+}
+.right-icon4 {
+    float: right; /* Alinha à direita */
+    height: 50px;
+    width: 50px;
+    padding: 1px; display: flex;
+    text-align: right;
+    margin-left: auto;
+    margin-right:20;
+}
+.sobre{
+    font-size: 20px;
+}
+.temp1{
+    height: 400px;
+    width: 300px;
+}
+.temp2{
+    height: 300px;
+    width: 300px;
+}
+.temp3{
+    height: 330px;
+    width: 330px;
+}
+.pol{
+    text-align: center;
+}
+.pil{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+
+.sobre2{
+    background-color: rgb(43, 31, 167);
+    font-size: 25px;
+    color: white;
+}
+.pam{
+    height: 350px;
+    margin-left: 100px;
+    width: 400px;
+}
+.pem{
+    text-align: center;
+}
+.pim{
+    height: 500px;
+    width: 600px;
+}
+.dem{
+    background-color: rgb(167, 31, 31);
+    text-align: center;
+    color: white;
+}
+.pod{
+    font-size: 70px;
+}
+
+.container {
+    background-color: #420a0a;
+    padding: 10px;
+    display: flex; /* Torna o container flexível */
+    color: white;
+    margin-right: 300px ;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.container1 {
+    background-color: #190a42;
+    padding: 10px;
+    display: flex; /* Torna o container flexível */
+    color: white;
+    margin-left: 300px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+/* Estilo para o texto */
+.container article {
+    width: 700px;
+    margin-right: 20px; /* Espaço entre o texto e a imagem */
+}
+
+/* Estilo para a imagem */
+.mig2 {
+    height: 300px;
+    width: 300px;
+}
+.mig1{
+    background-color: #420a0a;
+    height: 300px;
+    width: 800px;
+    display: inline-block;
+    display: flex;
+} 
+
+/* Estilo para os parágrafos */
+p {
+    margin: 0; /* Remove margens padrão */
+}
+
+.seja{
+    margin-top: 20px;
+    background-color: #420a0a;
+    font-size: 40px;
+    color: white; margin-right: 200px;
+
+}
+footer{
+    background-color: rgb(43, 31, 167) ;
+    height: 300px;
+    color: white;
+
+}
+h3{
+    text-align: center;
+font-size: 40px;}
+
+.icon1{
+    padding: 1px;
+    height: 200px;
+    width: 200px;
+    margin-left: 50px;
+}
+.icon2{
+    height: 200px;
+    width: 200px;
+    margin-left: 50px;
+}
+.icon3{
+    height: 200px;
+    width: 200px;
+    margin-left: 50px;
+}
+.icon4{
+    height: 200px;
+    width: 200px;
+    margin-left: 50px;
+}
+
+.em{
+    text-align: center;
+   
+}
+
+.link2{
+    cursor: pointer;
+            color: rgb(255, 255, 255);
+            
+}
+.link{
+    cursor: pointer;
+            color: rgb(255, 255, 255);
+            
+}
+.link3{
+    cursor: pointer;
+            color: rgb(255, 255, 255);
+            
+}
+.pum{
+    font-size: 20px;
+    text-align: center;
+    color: black;
+   
+
+}
